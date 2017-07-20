@@ -1,0 +1,666 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.3.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>OMSCS Course PDF Library</title>
+
+
+
+
+<meta name="description" content="Resource Library for OMSCS courses at Georgia Tech">
+
+
+
+
+<meta name="author" content="">
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="OMSCS PDF Course Library">
+<meta property="og:title" content="OMSCS PDF Course Library">
+
+
+<link rel="canonical" href="https://omscs-pdf.github.io/OMSCS-PDF/">
+<meta property="og:url" content="https://omscs-pdf.github.io/OMSCS-PDF/">
+
+<!-- end SEO -->
+
+<!-- <link href="https://omscs-pdf.github.io/OMSCS-PDF/feed.xml" type="application/atom+xml" rel="alternate" title="EdTech Course Library Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://omscs-pdf.github.io/OMSCS-PDF/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--home">
+<!--[if IE]>
+    <div>Not all features may work with Internet Explorer or Edge. For a better experience, try a different browser.</div>
+<![endif]-->
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://omscs-pdf.github.io/OMSCS-PDF/"><img src="https://omscs-pdf.github.io/OMSCS-PDF/assets/images/GT_logo.png" style="width:60px;height:60px;"> EdTech Course Library</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="https://omscs-pdf.github.io/OMSCS-PDF/introduction/course-introduction">Course Introduction</a></li>
+          
+            
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+            <li class="masthead__menu-item"><a href="https://omscs-pdf.github.io/OMSCS-PDF/introduction/tips-for-class">Tips for the Class</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://omscs-pdf.github.io/OMSCS-PDF/contribute?refpage=/">Add a Resource</a></li>
+          
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<!--
+<p style="color: red; font-size: 0.9em; text-align: center">This site is currently a work in progress. Some things may not work as expected.</p>
+-->
+
+
+    <style>
+  header.sticky-header {
+  	background-color: #fff;
+  	padding-top: 1.2em;
+  }
+</style>
+<div id="main" role="main">
+  <!-- <script src="/CourseLibrary/assets/js/jquery-3.2.1.min.js" type="text/javascript"></script> -->
+<!-- <script src="/CourseLibrary/assets/js/scroll-sticky.js" type="text/javascript"></script> -->
+<!-- <script src="/CourseLibrary/assets/js/sticky-kit.js" type="text/javascript"></script> -->
+
+  <div class="sidebar sticky" id="scroll-side">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+<form action="/CourseLibrary/search" method="get">
+  <input type="submit" value="Search" style="float: right;">
+  <div style="overflow: hidden;">
+  	<input type="text" id="search-box" name="query">
+  </div>
+</form>
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label class="menu-toggle" for="ac-toc"><i class="fa fa-navicon"></i><!-- Menu --></label>
+  <ul class="nav__items">
+    
+      <li>
+        
+         <div class="toggle">
+          
+          
+          	<input type="checkbox" value="selected" class="toggle-input" id="introduction-to-educational-technology" >
+          	<label for="introduction-to-educational-technology" class="toggle-label"><span class="nav__sub-title">Introduction to Educational Technology</span></label>
+        
+
+        
+        <ul class="toggle-content">
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/introduction-to-edtech/survey-of-edtech" class="">Survey of EdTech</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/introduction-to-edtech/views-on-edtech" class="">Views on Educational Technology</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/introduction-to-edtech/educational-technology-in-the-media" class="">Educational Technology in the Media</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/introduction-to-edtech/useful-web-sites" class="">Useful Web Sites</a></li>
+          
+        </ul>
+        <!-- </div> -->
+        
+      </li>
+    
+      <li>
+        
+         <div class="toggle">
+          
+          
+          	<input type="checkbox" value="selected" class="toggle-input" id="research-principles-and-methodologies" >
+          	<label for="research-principles-and-methodologies" class="toggle-label"><span class="nav__sub-title">Research Principles and Methodologies</span></label>
+        
+
+        
+        <ul class="toggle-content">
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/research-principles-and-methodologies/research-basics" class="">Research Basics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/research-principles-and-methodologies/research-designs" class="">Research Designs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/research-principles-and-methodologies/controlled-experiments" class="">Controlled Experiments</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/research-principles-and-methodologies/survey-research" class="">Survey Research</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/research-principles-and-methodologies/qualitative-research" class="">Qualitative Research</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/research-principles-and-methodologies/quantitative-research" class="">Quantitative Research</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/research-principles-and-methodologies/research-statistics" class="">Research Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/research-principles-and-methodologies/design-based-research" class="">Design-Based Research</a></li>
+          
+        </ul>
+        <!-- </div> -->
+        
+      </li>
+    
+      <li>
+        
+         <div class="toggle">
+          
+          
+          	<input type="checkbox" value="selected" class="toggle-input" id="pedagogical-styles" >
+          	<label for="pedagogical-styles" class="toggle-label"><span class="nav__sub-title">Pedagogical Styles</span></label>
+        
+
+        
+        <ul class="toggle-content">
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/pedagogical-styles/constructionism" class="">Constructionism</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/pedagogical-styles/project-based-learning" class="">Project-Based Learning</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/pedagogical-styles/problem-based-learning" class="">Problem-Based Learning</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/pedagogical-styles/communities-of-practice" class="">Communities of Practice</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/pedagogical-styles/social-learning" class="">Social Learning</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/pedagogical-styles/metacognition" class="">Metacognition</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/pedagogical-styles/formative-assessment" class="">Formative Assessment</a></li>
+          
+        </ul>
+        <!-- </div> -->
+        
+      </li>
+    
+      <li>
+        
+         <div class="toggle">
+          
+          
+          	<input type="checkbox" value="selected" class="toggle-input" id="technologies" >
+          	<label for="technologies" class="toggle-label"><span class="nav__sub-title">Technologies</span></label>
+        
+
+        
+        <ul class="toggle-content">
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/technologies/learning-management-systems" class="">Learning Management Systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/technologies/intelligent-tutoring-systems" class="">Intelligent Tutoring Systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/technologies/online-learning" class="">Online Learning</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/technologies/moocs" class="">MOOCs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/technologies/social-networking" class="">Social Networking</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/technologies/computer-supported-collaborative-work" class="">Computer-Supported Collaborative Work</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/technologies/game-based-learning" class="">Game-Based Learning</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/technologies/simulation-based-learning" class="">Simulation-Based Learning</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/technologies/mobile-devices" class="">Mobile Devices</a></li>
+          
+        </ul>
+        <!-- </div> -->
+        
+      </li>
+    
+      <li>
+        
+         <div class="toggle">
+          
+          
+          	<input type="checkbox" value="selected" class="toggle-input" id="broader-issues" >
+          	<label for="broader-issues" class="toggle-label"><span class="nav__sub-title">Broader Issues</span></label>
+        
+
+        
+        <ul class="toggle-content">
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/broader-issues/gender-technology-and-education" class="">Gender, Technology, and Education</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/broader-issues/underserved-communities" class="">Underserved Communities and Educational Technology</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/broader-issues/ethics-and-edtech" class="">Ethics and EdTech</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/broader-issues/identity-technology-and-education" class="">Identity, Technology, and Education</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/broader-issues/privacy-in-educational-technology" class="">Privacy in Educational Technology</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/broader-issues/technology-in-the-classroom" class="">Technology in the Classroom</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/broader-issues/the-business-of-edtech" class="">The Business of EdTech</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/broader-issues/computer-science-education" class="">Computer Science Education</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://omscs-pdf.github.io/OMSCS-PDF/broader-issues/open-problems" class="">Open Problems</a></li>
+          
+        </ul>
+        <!-- </div> -->
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+  <!-- <script type="text/javascript">
+  	$("#scroll-side").stick_in_parent({sticky_class:"sticky"});
+  </script> -->
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Welcome to the OMSCS PDF library!">
+
+    <div class="page__inner-wrap">
+      
+        <header class="sticky-header">
+          <h1 class="page__title" itemprop="headline">Welcome to the OMSCS PDF library!</h1>
+          <p>This library is primarily assembled as an archive of PDFs generated from the Georgia Tech OMSCS video lectures.</p>
+		</header>
+      
+
+    </div>
+  </article>
+
+</div>
+
+    <div class="page__footer">
+      <footer>
+        
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-copyright" style="float:right;"><a href="/CourseLibrary/feedback">Have any suggestions? Give us your feedback!</a></div>
+<div class="page__footer-copyright">&copy; 2017 OMSCS PDF Library. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="https://omscs-pdf.github.io/OMSCS-PDF/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
